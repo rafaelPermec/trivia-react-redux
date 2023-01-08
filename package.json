@@ -2,6 +2,7 @@
   "name": "trivia-test",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rafaelpermec.github.io/trivia-react-redux",
   "engines": {
     "node": "16"
   },
@@ -30,7 +31,9 @@
     "eject": "react-scripts eject",
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "lint:styles": "npx stylelint '**/*.css'",
-    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx"
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
