@@ -17,7 +17,9 @@ class Login extends Component {
   onInputChange = ({ target: { id, value } }) => this.setState({ [id]: value });
 
   isDisabled = (gravatarEmail, name) => {
-    if (gravatarEmail === '' || name === '') {
+    // eslint-disable-next-line max-len
+    const emailRegex = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i;
+    if (!emailRegex.test(gravatarEmail) || name === '') {
       return true;
     } return false;
   }
