@@ -2,7 +2,7 @@
   "name": "trivia-test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourgithubname.github.io/your-app-name",
+  "homepage": "https://rafaelpermec.github.io/trivia-react-redux",
   "engines": {
     "node": "16"
   },
