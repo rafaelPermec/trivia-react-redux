@@ -127,11 +127,11 @@ https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50
 - [x] Dê o fork no projeto e clone-o para sua maquina digitando o comando em seu terminal:
   
   ````bash
-  git clone git@github.com:rafaelPermec/pokemon-trainer-party.git
+  git clone git@github.com:rafaelPermec/trivia-react-redux.git
   ````
 - [x] Entre com o comando em seu terminal, para entrar no diretório principal e instalar as dependências do projeto:
   ````bash
-  cd pokemon-trainer-party && npm install
+  cd trivia-react-redux && npm install
     ````
 - [x] Digite o comando abaixo em seu terminal e espere o browser abrir o projeto!
   ````bash
