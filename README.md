@@ -1,5 +1,15 @@
 # Boas vindas ao repositório do projeto de Trivia!
 
+
+## Técnologias usadas
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+----
+
 ## Habilidades
 
 Nesse projeto, fui capaz de:
@@ -33,6 +43,11 @@ Você deverá desenvolver um jogo de perguntas e respostas baseado no jogo **Tri
 
 ## For Geeks:
 
+<details>
+  <summary>
+    <code> API de Trivia </code>
+  </summary>
+
 ### API de Trivia
 
 A [API do Trivia](https://opentdb.com/api_config.php) é bem simples. Temos 2 endpoints que vamos precisar.
@@ -61,7 +76,13 @@ Para pegar as perguntas, você deve realizar um GET request para o seguinte endp
 ```
 https://opentdb.com/api.php?amount=${quantidade-de-perguntas-retornadas}&token=${seu-token-aqui}
 ```
+</details>
 
+<details>
+  <summary>
+    <code> Gravatar </code>
+  </summary>
+  
 ### Gravatar
 
 O Gravatar é um serviço que permite deixar o avatar global a partir do email cadastrado, ele mostra sua foto cadastrada em qualquer site vinculado. Na tela de **Inicio**, a pessoa que joga pode colocar um e-mail que deve fazer uma consulta a API do [Gravatar](https://br.gravatar.com/site/implement/images/).
@@ -90,9 +111,23 @@ https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50
 <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50" />
 
 ````
+
+</details>
+
 ----
 
+## Rodando o Projeto:
+<details>
+  <summary>
+    <code> Localmente </code>
+  </summary>
+</details>
 
+
+<details>
+  <summary>
+    <code> Cenário de Testes </code>
+  </summary>
 ### ESLint e Stylelint
 
 Para garantir a qualidade do código, utilizei neste projeto os linters `ESLint` e `Stylelint`.
@@ -142,4 +177,4 @@ Para executar e acompanhar a implementação da sua cobertura de testes, rode o 
 ```bash
 npm run test:coverage
 ```
-
+</details>
