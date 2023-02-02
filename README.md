@@ -47,6 +47,15 @@ Você deverá desenvolver um jogo de perguntas e respostas baseado no jogo **Tri
 
 <details>
   <summary>
+    <code> Browser / URL </code>
+  </summary>
+
+### Acesse o [Link de Deploy](https://rafaelpermec.github.io/trivia-react-redux/).
+
+</details>
+
+<details>
+  <summary>
     <code> Localmente </code>
   </summary>
 
